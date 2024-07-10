@@ -143,7 +143,7 @@ function buscarCompra(tipo) {
     return compras.find(compra => compra.tipo === tipo);
 }
 
-// Usando la función map para crear un resumen de compras
+
 function mostrarResumenCompras() {
     const resumen = compras.map(compra => {
         return `Tipo: ${compra.tipo.charAt(0).toUpperCase() + compra.tipo.slice(1)}, Cantidad: ${compra.cantidad}, Total: $${formatearNumero(compra.totalConDescuento)}`;
