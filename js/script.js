@@ -154,3 +154,5 @@ function mostrarResumenCompras() {
 }
 
 calcularCompra();
+
+// let mensaje = localStorage.getItem("mensaje");

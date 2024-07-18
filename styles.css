@@ -1,0 +1,24 @@
+* {
+    margin: auto;
+    padding: auto;
+    width: 100%;
+  }
+
+.logo-tienda {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: brown;
+    width: 20%;
+    margin-left: 20%;
+}
+
+.carousel {
+    width: 30%; 
+    margin-top: 2%;
+}
